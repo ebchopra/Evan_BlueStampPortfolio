@@ -48,7 +48,7 @@ For my first milestone, I setup up basic electronics and wrote some basic code t
 After I fixed all the bugs, I realized that the circuit had a lot of noise, which was especially apparent when the signal was amplified. Moving forward, I need to find where the noise is coming from and implement a noise gate in software if necessary. After I do that, I can move forward with assembling the rest of the electronics.
 
 # Schematics 
-<img src="OpAmps.png" width="800" height="400">
+<img src="OpAmps.png" width="1200" height="400">
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
