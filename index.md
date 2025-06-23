@@ -55,7 +55,7 @@ After I fixed all the bugs, I realized that the circuit had a lot of noise, whic
 </p>
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+This code tests the input and output of the setup; it reads the level of the input, reports it to via the serial port, and outputs the audio unmodified.
 
 ```c++
 #include <Audio.h>
