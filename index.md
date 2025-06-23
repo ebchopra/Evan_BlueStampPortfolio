@@ -100,21 +100,21 @@ The project was fairly straightforward to build, consisting of a pcb with throug
 
 # Bill of Materials:
 - Parts:
-- *1* Piezo Buzzer
-- Electrolytic Capacitor
-- Micro USB Jack
-- Micro USB Power Cable
-- Latching Switch
-- Switch Cap
-- 3x7 Segment Digitron Display
-- Preprogrammed IC Chip
-- 2 LED 8x8 Dot Matrices
-- 6 Push Buttons
-- 6 Button Caps
-- 1 PCB
-- 8 3x5mm Screws
-- 2 3x8mm Screws
-- 4 Double-pass Copper Standoffs
-- 4 Single-head Hexagonal Standoffs
-- 1 3xAAA Battery Case
-- 6 Acrylic Panels
+- **1** Piezo Buzzer
+- **1** Electrolytic Capacitor
+- **1** Micro USB Jack
+- **1** Micro USB Power Cable
+- **1** Latching Switch
+- **1** Switch Cap
+- **1** 3x7 Segment Digitron Display
+- **1** Preprogrammed IC Chip
+- **2** LED 8x8 Dot Matrices
+- **6** Push Buttons
+- **6** Button Caps
+- **1** PCB
+- **8** 3x5mm Screws
+- **2** 3x8mm Screws
+- **4** Double-pass Copper Standoffs
+- **4** Single-head Hexagonal Standoffs
+- **1** 3xAAA Battery Case
+- **6** Acrylic Panels
