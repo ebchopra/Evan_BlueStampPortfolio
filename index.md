@@ -49,7 +49,7 @@ After I fixed all the bugs, I realized that the circuit had a lot of noise, whic
 
 # Schematics 
 <img src="OpAmps.png" width="1200" height="300">
-<img src="Boards.png" width="500" height="400"> <img src="PCB.png" width="400" height="400">
+<img src="Boards.png" width="500" height="400"> <img src="PCB.png" width="350" height="400">
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
