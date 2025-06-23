@@ -100,7 +100,7 @@ The project was fairly straightforward to build, consisting of a pcb with throug
 
 # Bill of Materials:
 - Parts:
-- Piezo Buzzer
+- *1* Piezo Buzzer
 - Electrolytic Capacitor
 - Micro USB Jack
 - Micro USB Power Cable
