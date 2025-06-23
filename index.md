@@ -11,8 +11,6 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Evan C | Menlo Atherton | Robotics | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](EvanC.jpg)
   
 # Final Milestone
@@ -99,3 +97,24 @@ The Retro Arcade Console is a small handheld console that plays games like Tetri
 The project was fairly straightforward to build, consisting of a pcb with through-hole components that I soldered on. The most challenging part of the project was soldering smaller parts like the USB power jack, which had very small pins close together that were hard to solder without bridging/shorting pins. The main chip came pre-programmed, so the project was only assembly.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUmHGdGd8cc?si=I4PNTilWzP2Y3OZt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# Bill of Materials
+- Parts:
+- Piezo Buzzer
+- Electrolytic Capacitor
+- Micro USB Jack
+- Micro USB Power Cable
+- Latching Switch
+- Switch Cap
+- 3x7 Segment Digitron Display
+- Preprogrammed IC Chip
+- 2 LED 8x8 Dot Matrices
+- 6 Push Buttons
+- 6 Button Caps
+- 1 PCB
+- 8 3x5mm Screws
+- 2 3x8mm Screws
+- 4 Double-pass Copper Standoffs
+- 4 Single-head Hexagonal Standoffs
+- 1 3xAAA Battery Case
+- 6 Acrylic Panels
