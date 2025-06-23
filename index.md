@@ -48,12 +48,9 @@ For my first milestone, I setup up basic electronics and wrote some basic code t
 After I fixed all the bugs, I realized that the circuit had a lot of noise, which was especially apparent when the signal was amplified. Moving forward, I need to find where the noise is coming from and implement a noise gate in software if necessary. After I do that, I can move forward with assembling the rest of the electronics.
 
 # Schematics 
-<img src="OpAmps.png" width="1200" height="300">
-
-<p float="left">
-  <img src="Boards.png" width="600" />
-  <img src="PCB.png" width="285" /> 
-</p>
+<img src="OpAmps.png" width="1200">
+<img src="Boards.png" width="1000"/>
+<img src="PCB.png" width="500"/> 
 
 # Code
 This code tests the input and output of the setup; it reads the level of the input, reports it to via the serial port, and outputs the audio unmodified.
