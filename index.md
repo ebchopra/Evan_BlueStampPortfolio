@@ -58,15 +58,58 @@ After I fixed all the bugs, I realized that the circuit had a lot of noise, whic
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include <Audio.h>
+#include <Wire.h>
+#include <SPI.h>
+#include <SD.h>
+#include <SerialFlash.h>
+
+// GUItool: begin automatically generated code
+AudioInputI2S            i2s1;           //xy=257,295
+AudioOutputI2S           i2s2;           //xy=415,290
+AudioConnection          patchCord1(i2s1, 0, i2s2, 0);
+
+// Add an AudioAnalyzePeak object to measure the input level
+AudioAnalyzePeak         peak1;          //xy=400,350
+
+// Connect the left channel of the I2S input to the peak analysis object
+AudioConnection          patchCord2(i2s1, 0, peak1, 0); // Connects left channel (0) of i2s1 to peak1
+// GUItool: end automatically generated code
+
+//Initialize Audio Shield
+AudioControlSGTL5000     sgtl5000_1;     //xy=264,423
+
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  AudioMemory(10); // Allocate memory for audio processing
+
+  // Initialize the audio system
+  Audio.begin();
+
+  // Initialize Serial communication for output
+  Serial.begin(9600); // You can choose a different baud rate if needed
+  Serial.println("Teensy Audio Input Level Monitor");
+
+  // Enable peak detection
+  peak1.begin();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Check if peak analysis has new data available
+  if (peak1.available()) {
+    // Get the peak value
+    float currentPeak = peak1.read();
 
+    // Print the peak value to the serial monitor
+    // The peak value is a float from 0.0 to 1.0 (or higher with gain)
+    // You might want to scale it or convert it to dB if desired.
+    Serial.print("Input Peak Level: ");
+    Serial.println(currentPeak, 4); // Print with 4 decimal places for precision
+  }
+
+  // Add a small delay to avoid overwhelming the serial monitor
+  // Adjust this delay as needed, too short might cause issues, too long will be less responsive
+  delay(10);
 }
 ```
 
