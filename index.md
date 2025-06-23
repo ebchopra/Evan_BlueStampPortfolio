@@ -50,7 +50,7 @@ After I fixed all the bugs, I realized that the circuit had a lot of noise, whic
 # Schematics 
 <img src="OpAmps.png" width="1200" height="300">
 <p float="left">
-  <img src="/Boards.png" width="600" />
+  <img src="/Boards.png" width="610" />
   <img src="/PCB.png" width="300" /> 
 </p>
 
