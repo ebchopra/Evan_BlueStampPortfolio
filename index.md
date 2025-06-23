@@ -98,7 +98,7 @@ The project was fairly straightforward to build, consisting of a pcb with throug
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUmHGdGd8cc?si=I4PNTilWzP2Y3OZt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Bill of Materials:
+# Bill of Materials:
 - Parts:
 - Piezo Buzzer
 - Electrolytic Capacitor
