@@ -138,6 +138,10 @@ The Retro Arcade Console is a small handheld console that plays games like Tetri
 
 The project was fairly straightforward to build, consisting of a PCB with through-hole components that I soldered on. The most challenging part of the project was soldering smaller parts like the USB power jack, which had very small pins close together that were hard to solder without bridging/shorting pins. The main chip came pre-programmed, so the project was only assembly.
 
+# Schematics:
+
+<img src="Schem.jpg" width="500"/> 
+
 # Bill of Materials:
 - **1** Piezo Buzzer
 - **1** Electrolytic Capacitor
