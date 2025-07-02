@@ -1,12 +1,6 @@
 Audio Processor
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Evan C | Menlo Atherton | Robotics | Incoming Junior
@@ -29,7 +23,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-<iframe width="560" height="315" src="https://youtu.be/QEc9sVze8mI?si=mHNmd1wpomPeRXOB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QEc9sVze8mI?si=wjUMuKTjMZpzzNMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 In my second milestone, I put together most of the remaining hardware, including making custom perfboards for the 5 potentiometers and splicing together wires from the 3 buttons. This took me a long time because I had an issue with my potentiometer setup. No matter how many times I tried wiring the potentiometers, they never seemed to work when I connected them to the Teensy. After much trial and error and replacing the potentiometers 3 times, I realized that the potentiometers can easily break while being soldered due to poor heat tolerance. This meant that I couldn't easily solder wires to them. Instead, I used a perfboard, where I could use much less solder to connect the potentiometers and thus didn't risk overheating them.
 
 For my final milestone, I want to finish the electronics; adding a small OLED display. I need to write code for this display and figure out how to interface it with the Teensy. Additionally, I need to start writing my main program, which would interface all knobs and buttons with the screen.
