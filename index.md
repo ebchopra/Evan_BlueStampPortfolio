@@ -46,7 +46,7 @@ After I fixed all the bugs, I realized that the circuit had a lot of noise, whic
 <img src="OpAmps.png" width="1200">
 <img src="Boards.png" width="1000"/>
 <img src="PCB.png" width="500"/> 
-<img src="Setup.jpg" width="1200">
+<img src="Setup.jpg" width="500">
 
 # Code
 This code tests the input and output of the setup; it reads the level of the input, reports it to via the serial port, and outputs the audio unmodified.
