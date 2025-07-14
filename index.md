@@ -1,5 +1,5 @@
 # Stompbox
-My project is a custom stompbox that can be used for electric guitar or other instruments like keyboards or even microphones. The circuit digitally processes the signal through software, and can implement many custom audio effects that would be expensive to purchase in the form of guitar pedals or something similar. I ran into a lot of issues building it, but in the end all the hardware works properly and the unit is functional
+My project is a custom stompbox that can be used for electric guitar or other instruments like keyboards or even microphones. The circuit digitally processes the signal through software, and can implement many custom audio effects that would be expensive to purchase in the form of guitar pedals or something similar. I ran into a lot of issues building it, both on the hardware and software side, but I fixed them all and the unit is functional.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
