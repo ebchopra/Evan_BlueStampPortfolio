@@ -26,6 +26,8 @@ In my second milestone, I put together most of the remaining hardware, including
 
 In this stage, I also tested different ways of processing the audio with the Teensy. The Teensy has plenty of processing power, so I was able to chain multiple effects together without latency or memory barriers. I also determined that the circuit works best when the input signal is strong; it requires less gain and thus has less noise after processing and creates a cleaner output.
 
+One thing I tried during this milestone was the Teensy's ability to process and synthesize signals. I wrote code for a mode where the Teensy detects the start of a note played by detecting transients in the audio signal, as well as detecting the frequency of the note using the Fast Fourier Transform. Then, once it knows the frequency and start time of the note, it can synthesize a new sound with the same frequency, which can make a keyboard sound like a guitar, for example.
+
 For my final milestone, I want to finish the electronics; adding an OLED display. I need to write code for this display and figure out how to interface it with the Teensy. Additionally, I need to start writing my main program, which would interface all knobs and buttons with the screen.
 
 <img src="Pots.jpg" width="500">
