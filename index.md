@@ -26,8 +26,9 @@ In my second milestone, I put together most of the remaining hardware, including
 
 In this stage, I also tested different ways of processing the audio with the Teensy. The Teensy has plenty of processing power, so I was able to chain multiple effects together without latency or memory barriers. I also determined that the circuit works best when the input signal is strong; it requires less gain and thus has less noise after processing and creates a cleaner output.
 
-One thing I tried during this milestone was the Teensy's ability to process and synthesize signals. I wrote code for a mode where the Teensy detects the start of a note played by detecting transients in the audio signal, as well as detecting the frequency of the note using the Fast Fourier Transform. Then, once it knows the frequency and start time of the note, it can synthesize a new sound with the same frequency, which can make a keyboard sound like a guitar, for example.
+During this stage, I wrote code that tested effects like delay, chorus, tremolo, reverb, and overdrive. Most of the effects worked perfectly with no issues, but overdrive amplified the noise already present in the circuit. Another thing I tried during this milestone was the Teensy's ability to process and synthesize signals. I wrote code for a mode where the Teensy detects the start of a note played by detecting transients in the audio signal, as well as detecting the frequency of the note using the Fast Fourier Transform. Then, once it knows the frequency and start time of the note, it can synthesize a new sound with the same frequency, which can make a keyboard sound like a guitar, for example.
 
+## Next Steps
 For my final milestone, I want to finish the electronics; adding an OLED display. I need to write code for this display and figure out how to interface it with the Teensy. Additionally, I need to start writing my main program, which would interface all knobs and buttons with the screen.
 
 <img src="Pots.jpg" width="500">
@@ -42,6 +43,7 @@ In this basic setup, the audio input is connected to the input jack, which is so
 
 The biggest challenge in this milestone was integrating all my different components and debugging why the circuit wasn't working. Initially, I connected the Teensy to the Audio Shield incorrectly; I later realized that I needed to initialize the codec chip on the Audio Shield in my code; and the last issue I had was the design tool I was using didn't correctly set up my signal path.
 
+## Next Steps
 After I fixed all the bugs, I realized that the circuit had a lot of noise, which was especially apparent when the signal was amplified. Moving forward, I need to find where the noise is coming from and implement a noise gate in software if necessary. After I do that, I can move forward with assembling the rest of the electronics.
 
 # Schematics 
