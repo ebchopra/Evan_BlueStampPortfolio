@@ -32,6 +32,7 @@ During this stage, I wrote code that tested effects like delay, chorus, tremolo,
 For my final milestone, I want to finish the electronics; adding an OLED display. I need to write code for this display and figure out how to interface it with the Teensy. Additionally, I need to start writing my main program, which would interface all knobs and buttons with the screen.
 
 <img src="Pots.jpg" width="500">
+<h6>Perfboard with soldered potentiometers</h6>
 
 # First Milestone
 
@@ -51,6 +52,7 @@ After I fixed all the bugs, I realized that the circuit had a lot of noise, whic
 <img src="Boards.png" width="1000"/>
 <img src="PCB.png" width="500"/> 
 <h6>Preamp PCB schematics and layout</h6>
+
 
 <img src="Setup.jpg" width="500">
 <h6>PCB with Audio Shield and Teensy</h6>
