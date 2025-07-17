@@ -22,7 +22,7 @@ I also ran into other issues like the display driver not working with the code p
 Overall, this project taught me a lot about troubleshooting and engineering. Additionally, I learned a lot about audio and electrical engineering when designing my preamp PCB. This project had a lot of hurdles to get over but the end result is well worth it and I'm glad I chose a project that would challenge me.
 
 <img src="E2.jpg" width="300"/> 
-<img src="E1.jpg" width="300"/> 
+<img src="E1_1.jpg" width="300"/> 
 <img src="E3.jpg" width="300"/> 
 <img src="E4.jpg" width="300"/> 
 
