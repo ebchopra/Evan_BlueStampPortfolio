@@ -11,13 +11,13 @@ My project is a custom stompbox that can be used for electric guitar or other in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QEc9sVze8mI?si=wjUMuKTjMZpzzNMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+During my final milestone, I assembled all the hardware in a 3D printed enclosure. The enclosure holds all the parts in place and mounts all the knobs and buttons to the top panel. Additionally, the enclosure has both a 9V barrel jack connector for power and a Micro USB connector for uploading new code. The enclosure uses recessed bolts to mount everything flush to the surface and features vents for cooling as well as metal standoffs for strength. Additionally, I wrote code for other effects like overdrive/distortion during this milestone, which I uploaded to the setup via the Micro USB jack mounted to the enclosure.
 
+Because I didn't want to have to reprint multiple times, my enclosure had to work the first time with no test fitting. To do this, I took measurements of all the parts inside and thought about factors like 3D printing tolerance and strength. If I had to do it again, I might change a few parts of the top half of the print, but it works just fine as it is.
 
+The hardest part of this milestone was actually wiring and assembling everything inside the enclosure. Because there wasn't much free space left in the enclosure, I needed to shorten and resolder a lot of the wires. So, it was hard to assemble everything at once because the case needed to be almost closed to make the wires reach. This was only further complicated when I found issues with the OLED display's wiring, which were caused by hot glue seeping into the pins and interrupting the electrical connection. In the end, I managed to connect everything and secure the connections with hot glue, and the pedal works perfectly now.
+
+Overall, this project taught me a lot about troubleshooting and engineering. Additionally, I learned a lot about audio and electrical engineering when designing my preamp PCB. This project had a lot of hurdles to get over but the end result is well worth it and I'm glad I chose a project that would challenge me.
 
 # Second Milestone
 
