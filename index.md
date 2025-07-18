@@ -5,17 +5,18 @@ My project is a custom stompbox that can be used for electric guitar or other in
 |:--:|:--:|:--:|:--:|
 | Evan C | Menlo Atherton | Robotics | Incoming Junior
 
-<img src="EvanC.jpg" width="300" height="400">
+<img src="EvanC.jpg" width="400">
   
 # Final Milestone
 
-
 <iframe width="560" height="315" src="https://youtu.be/oymLfsMuYJ4?si=tYsG7_8uJumdrtFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Summary
 During my final milestone, I assembled all the hardware in a 3D printed enclosure. The enclosure holds all the parts in place and mounts all the knobs and buttons to the top panel. Additionally, the enclosure has both a 9V barrel jack connector for power and a Micro USB connector for uploading new code. The enclosure uses recessed bolts to mount everything flush to the surface and features vents for cooling as well as metal standoffs for strength. Additionally, I wrote code for other effects like overdrive/distortion during this milestone, which I uploaded to the setup via the Micro USB jack mounted to the enclosure.
 
 Because I didn't want to reprint multiple times, my enclosure had to work the first time with no test fitting. To do this, I took measurements of all the parts inside and thought about factors like 3D printing tolerance and strength. I also considered the pedal layout, placing the footswitches a decent distance apart so multiple wouldn't be pressed at the same time. If I had to do it again, I might change a few parts of the top half of the print, but it works just fine as it is.
 
+### Challenges
 The hardest part of this milestone was actually wiring and assembling everything inside the enclosure. Because there wasn't much free space left in the enclosure, I needed to shorten and resolder a lot of the wires. So, it was hard to assemble everything at once because the case needed to be almost closed to make the wires reach. This was only further complicated when I found issues with the OLED display's wiring, which were caused by hot glue seeping into the pins and interrupting the electrical connection. In the end, I managed to connect everything and secure the connections with hot glue, and the pedal works perfectly now.
 
 I also ran into other issues like the display driver not working with the code perfectly. It had a weird issue where all the colums were off by 2 pixels and the only fix was to try to make the screen fill pixels that would ordinarily be off the right side of the screen so that they wrapped around to the left and filled in the missing spots.
@@ -30,13 +31,15 @@ Overall, this project taught me a lot about troubleshooting and engineering. Add
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QEc9sVze8mI?si=wjUMuKTjMZpzzNMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Summary
 In my second milestone, I put together most of the remaining hardware, including making custom perfboards for the 5 potentiometers and splicing together wires from the 3 buttons. This took me a long time because I had an issue with my potentiometer setup. No matter how many times I tried wiring the potentiometers, they never seemed to work when I connected them to the Teensy. After much trial and error and replacing the potentiometers 3 times, I realized that the potentiometers can easily break while being soldered due to poor heat tolerance. This meant that I couldn't easily solder wires to them. Instead, I used a perfboard, where I could use much less solder to connect the potentiometers and thus didn't risk overheating them.
 
 In this stage, I also tested different ways of processing the audio with the Teensy. The Teensy has plenty of processing power, so I was able to chain multiple effects together without latency or memory barriers. I also determined that the circuit works best when the input signal is strong; it requires less gain and thus has less noise after processing and creates a cleaner output.
 
 During this stage, I wrote code that tested effects like delay, chorus, tremolo, reverb, and overdrive. Most of the effects worked perfectly with no issues, but overdrive amplified the noise already present in the circuit. Another thing I tried during this milestone was the Teensy's ability to process and synthesize signals. I wrote code for a mode where the Teensy detects the start of a note played by detecting transients in the audio signal, as well as detecting the frequency of the note using the Fast Fourier Transform. Then, once it knows the frequency and start time of the note, it can synthesize a new sound with the same frequency, which can make a keyboard sound like a guitar, for example.
 
-## Next Steps
+### Next Steps
 For my final milestone, I want to finish the electronics; adding an OLED display. I need to write code for this display and figure out how to interface it with the Teensy. Additionally, I need to start writing my main program, which would interface all knobs and buttons with the screen.
 
 <img src="Pots.jpg" width="500">
@@ -46,13 +49,14 @@ For my final milestone, I want to finish the electronics; adding an OLED display
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HKZY6D4AcYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Summary
 For my first milestone, I setup up basic electronics and wrote some basic code to make sure all the hardware works. The setup tests my custom preamp PCB, the Teensy Audio Shield, and the Teensy microcontroller itself as well as the integration of them all. I've tested the Teensy's ability to read and understand an audio signal, as well as testing basic effects and processing. 
 
 In this basic setup, the audio input is connected to the input jack, which is soldered to my preamp PCB. The PCB uses 2 OPA1602 op-amps to buffer and amplify the signal to make it readable by the Teensy. After the signal is buffered, it is fed into the Teensy Audio Shield, which turns the audio into a digital signal given to the Teensy. The Teensy processes the signal and outputs the signal unmodified in this setup, where it is converted back to an analog signal by the Audio Shield and then buffered and attenuated by my preamp in order to bring the signal back to the same format as the original input.
 
 The biggest challenge in this milestone was integrating all my different components and debugging why the circuit wasn't working. Initially, I connected the Teensy to the Audio Shield incorrectly; I later realized that I needed to initialize the codec chip on the Audio Shield in my code; and the last issue I had was the design tool I was using didn't correctly set up my signal path.
 
-## Next Steps
+### Next Steps
 After I fixed all the bugs, I realized that the circuit had a lot of noise, which was especially apparent when the signal was amplified. Moving forward, I need to find where the noise is coming from and implement a noise gate in software if necessary. After I do that, I can move forward with assembling the rest of the electronics.
 
 # Schematics 
