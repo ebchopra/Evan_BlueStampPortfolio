@@ -9,7 +9,7 @@ My project is a custom stompbox that can be used for electric guitar or other in
   
 # Final Milestone
 
-<iframe width="560" height="315" src="https://youtu.be/oymLfsMuYJ4?si=tYsG7_8uJumdrtFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oymLfsMuYJ4?si=5SAuQQGAKKOklzxL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
 During my final milestone, I assembled all the hardware in a 3D printed enclosure. The enclosure holds all the parts in place and mounts all the knobs and buttons to the top panel. Additionally, the enclosure has both a 9V barrel jack connector for power and a Micro USB connector for uploading new code. The enclosure uses recessed bolts to mount everything flush to the surface and features vents for cooling as well as metal standoffs for strength. Additionally, I wrote code for other effects like overdrive/distortion during this milestone, which I uploaded to the setup via the Micro USB jack mounted to the enclosure.
