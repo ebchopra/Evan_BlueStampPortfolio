@@ -453,6 +453,14 @@ void loop() {
 }
 ```
 
+## CAD
+
+I modelled the enclosure in Blender, sliced it in Flashprint 5, and printed it on my Adventurer 3 3D Printer.
+
+<img src="C1.jpg" width="300"/>
+<img src="C2.jpg" width="300"/>
+<img src="C3.jpg" width="300"/>
+
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QEc9sVze8mI?si=wjUMuKTjMZpzzNMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
