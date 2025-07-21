@@ -457,9 +457,9 @@ void loop() {
 
 I modelled the enclosure in Blender, sliced it in Flashprint 5, and printed it on my Adventurer 3 3D Printer.
 
-<img src="C1.jpg" width="300"/>
-<img src="C2.jpg" width="300"/>
-<img src="C3.jpg" width="300"/>
+<img src="C1.png" width="300"/>
+<img src="C2.png" width="300"/>
+<img src="C3.png" width="300"/>
 
 # Second Milestone
 
