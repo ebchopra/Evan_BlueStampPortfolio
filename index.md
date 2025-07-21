@@ -563,6 +563,7 @@ void loop() {
 
 # Bill of Materials
 
+## Required
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Teensy 4.1 | Microcontroller | $31.50 | <a href="https://www.sparkfun.com/teensy-4-1.html"> Sparkfun </a> |
@@ -570,8 +571,17 @@ void loop() {
 | 6.35mm Audio Jacks | Connect cables | $9.99 | <a href="https://www.amazon.com/Treedix-Breakout-Pannel-6-35mm-Headphone/dp/B09Z2MQLHX"> Amazon </a> |
 | Buttons/Switches | Control effects | $12.49 | <a href="https://www.amazon.com/Etopars-Guitar-Effects-Momentary-Button/dp/B076V2QYSJ"> Amazon </a> |
 | Knobs | Control effects | $9.99 | <a href="https://www.amazon.com/EPLZON-Linear-Potentiometer-XH2-54-3-Connector/dp/B0D2991CBF"> Amazon </a> |
-| 1.3" OLED | Screen | $10.98 | <a href="https://www.amazon.com/DIYmall-Serial-128X64-Display-Arduino/dp/B06XXTHLNW"> Amazon </a> |
 
+## Optional (Increase functionality)
+
+| **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| LM2596 | Buck converter | $7.99 | <a href="https://www.amazon.com/JTAREA-LM2596-Converter-Regulator-Adjustable/dp/B0D2TS7CBN/"> Amazon </a> |
+| Barrel Jack Connector | Connects power supply | $6.99 | <a href="https://www.amazon.com/Antrader-24pcs-Female-Socket-Connector/dp/B07CTCLKPP/r"> Amazon </a> |
+| Power supply | 9V barrel jack | $8.69 | <a href="https://www.amazon.com/Guitar-Supply-Adapter-1000mA%EF%BC%89-Effect/dp/B09MHK2XC2/"> Amazon </a> |
+| Micro USB Connector | Mount to enclosure | $5.39 | <a href="https://www.amazon.com/DAOKAI-Female-Adapter-Converter-Breakout/dp/B09WQTR1H3/"> Amazon </a> |
+| 2.42" OLED | I2C display | $16.99 | <a href="https://www.amazon.com/HiLetgo-SSD1309-128x64-Display-Optional/dp/B0CFF3XNX4"> Amazon </a> |
+| M3 Standoffs | Reinforce enclosure | $8.99 | <a href="https://www.amazon.com/Motherboard-Prototyping-Accessories-Quadcopter-Assortment/dp/B08FZKLYSB"> Amazon </a> |
 <!--# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
